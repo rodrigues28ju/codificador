@@ -144,6 +144,7 @@ input[type=text]:not(:placeholder-shown) {
      margin-left: 0;
    }
   }
+
 @media (max-width: 400px) {
     .container{
       width: 85%;
@@ -153,14 +154,15 @@ input[type=text]:not(:placeholder-shown) {
      width: 100%;
      /*margin-left: 55px;*/
   }
-  .formulario{
+ .formulario{
     padding-left: 1.5px;
   }
-  }
+  
   p {
     font-size: 20px;
  }
-
+   
+  }
 @media (max-width: 372px) {
     .contido .formulario .titulo {
         font-size: 35px;
