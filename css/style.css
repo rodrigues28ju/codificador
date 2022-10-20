@@ -123,7 +123,7 @@ input[type=text]:not(:placeholder-shown) {
   }
   
   ::-webkit-scrollbar-track {
-    background:  linear-gradient(0deg, rgba(240, 144, 229,1) 0%, rgba(132, 240, 230,1) 100%);
+    background:  linear-gradient(180deg, rgba(240, 144, 229,1) 0%, rgba(132, 240, 230,1) 100%);
   }
   
   ::-webkit-scrollbar-thumb {
