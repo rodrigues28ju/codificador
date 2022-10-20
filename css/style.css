@@ -143,6 +143,9 @@ input[type=text]:not(:placeholder-shown) {
      width: 100%;
      margin-left: 0;
    }
+   .formulario{
+    padding-left: 1.5px;
+  }
   }
 
 @media (max-width: 400px) {
