@@ -120,6 +120,7 @@ input[type=text]:not(:placeholder-shown) {
 }
   
 /*responsividade/*/
+
 @media (max-width: 950px) {
     .container{
       width: 90%;
@@ -130,7 +131,9 @@ input[type=text]:not(:placeholder-shown) {
      margin-left: 55px;
   }
   }
-  @media (max-width: 820px) {
+
+@media (max-width: 820px) {
+
     .container{
       margin: 40px 0;
       height: 100%;
@@ -145,7 +148,7 @@ input[type=text]:not(:placeholder-shown) {
    }
    .formulario{
     padding-left: 1.5px;
-  }
+   }
   }
 
 @media (max-width: 400px) {
@@ -160,21 +163,21 @@ input[type=text]:not(:placeholder-shown) {
  .formulario{
     padding-left: 1.5px;
   }
-  
+
   p {
     font-size: 20px;
  }
    
   }
 @media (max-width: 372px) {
-    .contido .formulario .titulo {
+.contido .formulario .titulo {
         font-size: 35px;
         font-weight: 400;
       }
-   p {
+p {
     font-size: 20px;
  }
-  }
-
+    
+}
 
   
