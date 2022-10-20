@@ -158,4 +158,12 @@ input[type=text]:not(:placeholder-shown) {
   }
   }
 
+@media (max-width: 368px) {
+    .contido .formulario .titulo {
+        font-size: 35px;
+        font-weight: 400;
+      }
+  }
+
+
   
