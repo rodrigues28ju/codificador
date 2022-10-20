@@ -157,12 +157,18 @@ input[type=text]:not(:placeholder-shown) {
     padding-left: 1.5px;
   }
   }
+  p {
+    font-size: 20px;
+ }
 
-@media (max-width: 368px) {
+@media (max-width: 372px) {
     .contido .formulario .titulo {
         font-size: 35px;
         font-weight: 400;
       }
+   p {
+    font-size: 20px;
+ }
   }
 
 
