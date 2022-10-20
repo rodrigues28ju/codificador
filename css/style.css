@@ -1,0 +1,147 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color:#F2BAB4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container {
+    width: 85%;
+    border-radius: 5px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background:#ffff;
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.container .contido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .contido .formulario {
+    width: 75%;
+    margin-left: 75px;
+}
+.formulario{
+    padding-left: 80px;
+}
+.contido .formulario .titulo {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.titulo{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color:#F09F9C;  
+}
+
+.material-symbols-outlined {
+    padding-left: 10px;
+
+}
+
+p {
+    font-size: 25px;
+    color:#F09F9C;
+}
+
+.formulario .box {
+    height: 50px;
+    width: 100%;
+    margin: 20px 0;
+    
+}
+
+.formulario .box input,
+.formulario .box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 16px;
+  background:#f7efeb;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+input[type=text]:not(:placeholder-shown) {
+    font-weight: bold;
+    color: #57c2b7;
+}
+
+.formulario .message-box{
+    min-height: 110px;
+}
+
+.formulario .box textarea{
+    padding-top: 6px;
+
+}
+  
+.formulario .enviar{
+    display: inline-block;
+    margin-top: 12px;
+
+}
+
+.formulario .enviar input[type="submit"] {
+    color: #ffff;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background:#F09F9C ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.enviar input[type="submit"]:hover{
+    background:#F090E5;
+
+}
+  
+/*responsividade/*/
+@media (max-width: 950px) {
+    .container{
+      width: 90%;
+      padding: 30px 40px 40px 35px ;
+    }
+    .container .contido .formulario{
+     width: 75%;
+     margin-left: 55px;
+  }
+  }
+  @media (max-width: 820px) {
+    .container{
+      margin: 40px 0;
+      height: 100%;
+    }
+    .container .contido {
+      flex-direction: column-reverse;
+    }
+   
+   .container .contido .formulario{
+     width: 100%;
+     margin-left: 0;
+   }
+  }
+  
